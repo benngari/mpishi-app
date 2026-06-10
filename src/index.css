@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@300;400;500;600&family=Kalam:wght@400;700&display=swap');
+
+:root {
+  --burnt-sienna: #C1440E;
+  --deep-green: #1A3A2A;
+  --warm-gold: #D4A017;
+  --cream: #FBF5E6;
+  --charcoal: #2A2A2A;
+  --soft-sand: #EDE0C4;
+  --light-bg: #F7F0E3;
+  --muted-green: #3D6B52;
+  --rust-light: #F0836A;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--light-bg);
+  color: var(--charcoal);
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--soft-sand); }
+::-webkit-scrollbar-thumb { background: var(--burnt-sienna); border-radius: 3px; }
